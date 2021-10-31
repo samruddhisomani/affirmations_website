@@ -21,8 +21,18 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 p {
   font-size: 3em;
+  width: 80%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+button {
+  justify-self: flex-end;
+  margin: 10px;
 }
